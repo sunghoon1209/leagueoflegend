@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 리그오브레전드 </title>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-QwqyBV2P1IJ5ExtekLHMf1n5Tf0xDTR7rkqsmC1NLaE=" crossorigin="anonymous"></script> -->
+    <script defer src="./js/main.js"></script>
+
+
+
+
+</head>
+
+<body>
+    <!-- main -->
+    <main>
+        <!-- header -->
+        <header>
+            <!-- logo -->
+            <h1>
+                <img src="./images/lollogo.webp" alt="">
+            </h1>
+            <address>
+
+                <img src="./images/riot.svg" alt="라이엇게임즈 로고">
+
+            </address>
+        </header>
+        <!-- 봉투,검색아이콘 -->
+        <nav id="icover">
+            <ul>
+                <li><a href="mailto:sunghoon@sunghoon.com"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="#"><i class="fas fa-search" id="searchButton"></i></a></li>
+            </ul>
+        </nav>
+        <!-- 검색창 -->
+        <div class="search-container" id="searchContainer">
+            <div>
+
+                <input type="text" placeholder="검색어를 입력하세요" onblur="shrinkText()" onfocus="resetTextSize()" required>
+                <!-- <button type="button">검색</button> -->
+                <i class="fa-regular fa-magnifying-glass"></i>
+
+            </div>
+        </div>
+
+        <!-- video 4ea -->
+
+        <section>
+            <!-- artilce -->
+            <article>
+                <div class="inner">
+                    <!-- 텍스트 -->
+                    <div class="txt">
+                        <h2>아레나</h2>
+                        <p>최강의 듀오 여러분, 모이세요. </p>
+                    </div>
+                    <!-- 영상 -->
+                    <figure>
+                        <video src="./vids/mode1.mp4" muted loop></video>
+                    </figure>
+                </div>
+            </article>
+            <!-- artilce 2 -->
+            <article>
+                <div class="inner">
+                    <!-- 텍스트 -->
+                    <div class="txt">
+                        <h2>소환사의 협곡</h2>
+                        <p>공격로에서 상대를 격파하고 5:5 팀 전투에 뛰어들어 적 넥서스를 파괴해 보세요.</p>
+                    </div>
+                    <!-- 영상 -->
+                    <figure>
+                        <video src="./vids/mode2.mp4" muted loop></video>
+                    </figure>
+                </div>
+            </article>
+            <!-- artilce 3-->
+            <article>
+                <div class="inner">
+                    <!-- 텍스트 -->
+                    <div class="txt">
+                        <h2>무작위 총력전</h2>
+                        <p>얼어붙은 다리 위에서 펼쳐지는 박진감 넘치는 5:5 게임 모드입니다. 무작위 챔피언으로 팀을 구성해 적의 넥서스를 파괴해 보세요.</p>
+                    </div>
+                    <!-- 영상 -->
+                    <figure>
+                        <video src="./vids/mode3.mp4" muted loop></video>
+                    </figure>
+                </div>
+            </article>
+            <!-- artilce 4 -->
+            <article>
+                <div class="inner">
+                    <!-- 텍스트 -->
+                    <div class="txt">
+                        <h2>전략적 팀전투</h2>
+                        <p> 챔피언들로 전략적인 팀을 구성해 결투장으로 진격시키세요. 총 7명의 상대와 겨루어 끝까지 살아남아야 합니다.</p>
+                    </div>
+                    <!-- 영상 -->
+                    <figure>
+                        <video src="./vids/mode4.mp4" muted loop></video>
+                    </figure>
+                </div>
+            </article>
+        </section>
+          <!-- 클릭시 나오는 왼쪽 영상 -->
+          <aside>
+
+            <!-- 텍스트 -->
+            <div class="txt">
+                <h3>01</h3>
+                <p>The cold East Sea, The waves are fierce. </p>
+                <span>CLOSE</span>
+            </div>
+            <!-- 영상 -->
+            <figure>
+                <video src="./vids/vid1.mp4" muted loop></video>
+            </figure>
+
+        </aside>
+       
+
+    </main>
+</body>
+
+</html>
